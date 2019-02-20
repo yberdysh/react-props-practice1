@@ -1,4 +1,4 @@
-(Dog = {
+export default {dog: {
   id: 1,
   name: "Happy Slay",
   img:
@@ -7,8 +7,8 @@
   "age in human years": "21",
   "default-mood": "Happy",
   moods: { angry: "I Hate You", excited: "Excited" }
-}),
-  (Dogs = [
+},
+dogs: [
     {
       id: 1,
       name: "Happy Slay",
@@ -49,6 +49,5 @@
       "default-mood": "unbothered",
       moods: { angry: "I'm off this", excited: "Oh That's Cute" }
     }
-  ]);
-
-export default Dog;
+  ]
+}
